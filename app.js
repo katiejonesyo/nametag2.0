@@ -3,7 +3,7 @@ const userInput = document.getElementById('text-input');
 const userButton = document.getElementById('name-change');
 const pinkButton = document.getElementById('pink');
 const blueButton = document.getElementById('blue');
-const purpleButton = document.getElementById('purple');
+const grayButton = document.getElementById('gray');
 
 
 
@@ -22,8 +22,7 @@ blueButton.addEventListener('click', () => {
     document.getElementById('nametag-main').style.backgroundColor="blue";
 
 } )
-purpleButton.addEventListener('click', () => {
-    document.getElementById('nametag-main').style.backgroundColor="purple";
-
+grayButton.addEventListener('click', () => {
+    document.getElementById('nametag-main').style.backgroundColor="gray";
 } )
 
